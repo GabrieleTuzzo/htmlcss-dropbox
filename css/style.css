@@ -1,3 +1,8 @@
+:root {
+    --brand-blue: #0061FF;
+    --secondary-color: #B4D0E7;
+}
+
 html {
     font-family: sans-serif, helvetica, arial;
 }
@@ -10,6 +15,15 @@ html {
 
 ul, ol {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    width: 100%;
 }
 
 .container {
@@ -29,12 +43,44 @@ ul, ol {
 }
 
 /* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+}
+
+header .container-100 {
+    padding: 32px 18px;
+}
+
 .header-menu {
     display: flex;
     gap: 12px;
+    align-items: center;
+}
+
+.header-logo > img {
+    display: block;
+}
+
+/* BUTTONS */
+.btn {
+    padding: 14px 16px;
+}
+
+.btn-sm {
+    padding: 8px 12px;
 }
 
 /* UTILITY */
+.bg-color-brand {
+    color: white;
+    background-color: var(--brand-blue);
+}
+
+.align-center {
+    align-items: center;
+}
+
 .justify-between {
     justify-content: space-between;
 }
