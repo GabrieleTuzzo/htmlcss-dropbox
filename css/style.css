@@ -59,13 +59,14 @@ img {
 /* HEADER */
 header {
     position: fixed;
+    background-color: white;
     width: 100%;
     padding: 32px 18px;
 }
 
 .header-menu {
     display: flex;
-    gap: 12px;
+    gap: 36px;
     align-items: center;
 }
 
@@ -76,10 +77,26 @@ header {
 /* HERO */
 .hero {
     padding-top: 178px;
+    background-color: #B4D0E7;
 }
 
 .hero .hero-heading {
-    text-align: center;
+    font-size: 78px;
+    padding-bottom: 54px;
+}
+
+.hero .hero-side {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 24px;
+    height: 100%;
+}
+
+.hero .hero-arrow {
+    margin-top: auto;
+    padding-bottom: 18px;
+    font-size: 44px;
 }
 
 /* BUTTONS */
