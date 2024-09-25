@@ -1,0 +1,53 @@
+html {
+    font-family: sans-serif, helvetica, arial;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.container-100 {
+    width: 100%;
+}
+
+.container-sm {
+    max-width: 1000px;
+}
+
+.row {
+    display: flex;
+}
+
+/* HEADER */
+.header-menu {
+    display: flex;
+    gap: 12px;
+}
+
+/* UTILITY */
+.justify-between {
+    justify-content: space-between;
+}
+
+/* DEBUG */
+.debug [class^="container"] {
+    border: 1px solid;
+}
+
+.debug .row {
+    border: 1px solid hotpink;
+}
+
+.debug [class^="col"] {
+    border :1px dashed cornflowerblue
+}
