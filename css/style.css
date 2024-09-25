@@ -42,6 +42,7 @@ img {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col-100 {
@@ -97,6 +98,10 @@ header {
     margin-top: auto;
     padding-bottom: 18px;
     font-size: 44px;
+}
+/* BUSINESS PLAN */
+.business-plan {
+    padding: 86px 0;
 }
 
 /* BUTTONS */
