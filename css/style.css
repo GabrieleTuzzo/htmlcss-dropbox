@@ -278,6 +278,25 @@ section.designit * {
 }
 
 /* FAQ QUESTIONS */
+.faq .section-heading {
+    margin-bottom: 66px;
+}
+
+.faq .faq-question {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid;
+    padding: 48px 0;
+}
+
+.faq .faq-question > span {
+    padding-right: 42px;
+}
+
+.faq > :last-child {
+    border-bottom: 1px solid;
+}
+
 
 /* BUTTONS */
 .btn {
