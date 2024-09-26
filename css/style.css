@@ -277,6 +277,8 @@ section.designit * {
     padding: 0 48px;
 }
 
+/* FAQ QUESTIONS */
+
 /* BUTTONS */
 .btn {
     display: inline-block;
@@ -351,4 +353,8 @@ section.designit * {
 
 .debug [class^="col"] {
     border :1px dashed cornflowerblue
+}
+
+.debug.faq li {
+    border: 1px solid hotpink
 }
