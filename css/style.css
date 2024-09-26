@@ -299,13 +299,37 @@ section.designit * {
 }
 
 /* FOOTER */
-.page-footer {}
+.page-footer {
+    padding-top: 102px;
+    padding-bottom: 46px;
+    color: white;
+    background-color: black;
+}
 
 .page-footer .row {
     justify-content: space-between;
 }
 
+.page-footer h3 {
+    margin-bottom: 28px;
+}
 
+.page-footer li {
+    margin-bottom: 14px;
+}
+
+.page-footer .lists-container {
+    margin-bottom: 106px
+}
+
+.page-footer .lang {
+    border-top: 1px solid white;
+    padding-top: 48px;
+}
+
+.page-footer .lang > span {
+    margin-right: 6px;
+}
 
 /* BUTTONS */
 .btn {
