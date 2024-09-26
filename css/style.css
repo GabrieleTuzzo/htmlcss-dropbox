@@ -25,6 +25,7 @@ a {
 
 img {
     width: 100%;
+    display: block;
 }
 
 /* LAYOUT */
@@ -223,6 +224,23 @@ img {
     color: black;
 }
 
+/* CONTACT */
+.contact {
+    padding: 86px 0;
+}
+
+.contact-info {
+    padding: 54px 0;
+}
+
+.contact-info h2 {
+    margin-bottom: 14px;
+}
+
+.contact-info p {
+    margin-bottom: 32px;
+}
+
 /* BUTTONS */
 .btn {
     display: inline-block;
@@ -238,7 +256,18 @@ img {
     line-height: 30px;
 }
 
+.btn.bg-white {
+    color: black;
+    background-color: white;
+    border: 1px solid;
+    border-color: var(--light-grey) var(--light-grey) black black;
+}
+
 /* UTILITY */
+.bg-white {
+    background-color: white;
+}
+
 .unbold {
     font-weight: normal;
 }
