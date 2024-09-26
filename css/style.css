@@ -246,6 +246,12 @@ section {
     row-gap: 32px;
 }
 
+/* CLIENTS */
+.clients .section-heading {
+    margin: 58px 0;
+    max-width: 50%;
+}
+
 /* BUTTONS */
 .btn {
     display: inline-block;
