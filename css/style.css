@@ -298,6 +298,14 @@ section.designit * {
     border-bottom: 1px solid;
 }
 
+/* FOOTER */
+.page-footer {}
+
+.page-footer .row {
+    justify-content: space-between;
+}
+
+
 
 /* BUTTONS */
 .btn {
