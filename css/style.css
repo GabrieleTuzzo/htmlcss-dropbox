@@ -259,8 +259,12 @@ section {
 }
 
 /* DESIGNIT */
-section.designit * {
-    padding: 0;
+.designit-heading {
+    max-height: 88px;
+}
+
+.designit-content {
+    padding: 48px;
 }
 
 /* ENTERPRISE */
@@ -368,6 +372,10 @@ section.designit * {
 
 .bg-white {
     background-color: white;
+}
+
+.bg-grey {
+    background-color: var(--light-grey);
 }
 
 .unbold {
